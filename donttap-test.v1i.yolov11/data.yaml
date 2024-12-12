@@ -1,0 +1,13 @@
+train: D:\Code-Learning\donttap-ollama-yolov8\donttap-test.v1i.yolov11\train\images
+val: D:\Code-Learning\donttap-ollama-yolov8\donttap-test.v1i.yolov11\valid\images
+test: D:\Code-Learning\donttap-ollama-yolov8\donttap-test.v1i.yolov11\test\images
+
+nc: 1
+names: ['black-tile']
+
+roboflow:
+  workspace: donttaptest
+  project: donttap-test
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/donttaptest/donttap-test/dataset/1
